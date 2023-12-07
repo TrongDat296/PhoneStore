@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5956E9"
+    android:orientation="vertical"
+    tools:context=".views.HelloActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Find your \nDevices"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/helloscreen" />
+
+    <Button
+
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:background="@drawable/background_btn_helo"
+        android:fontFamily="@font/montserratbold"
+        android:textColor="@color/purple_500"
+        android:padding="8dp"
+        android:textSize="24dp"
+        android:text="Get started"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</LinearLayout>
